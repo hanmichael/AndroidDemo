@@ -1,7 +1,11 @@
 //
-	Fragment配合RadioGroup实现点击切换内容
+	1.Fragment配合RadioGroup实现点击切换内容
 
 //
-	listview +checkbox 的嵌套的问题
+	2.listview +checkbox 的嵌套的问题
 
 //
+	3. 关于实现textview的监听的方式（ｔｅｘｔｗａｔｈｅｒ）
+
+
+	
