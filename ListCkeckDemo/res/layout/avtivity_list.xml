@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- private ListView lv; -->
+    <!-- private MyAdapter mAdapter; -->
+    <!-- private ArrayList<String> list; -->
+    <!-- private Button bt_selectall; -->
+    <!-- private Button bt_cancel; -->
+    <!-- private Button bt_deselectall; -->
+    <!-- private int checkNum; // 记录选中的条目数量 -->
+    <!-- private TextView tv_show;// 用于显示选中的条目数量 -->
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" >
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" 
+            android:text="选择的条数"
+            />
+
+        <Button
+            android:id="@+id/bt_selectall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="全选" />
+
+        <Button
+            android:id="@+id/bt_cancelselectall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="反选" />
+
+        <Button
+            android:id="@+id/bt_deselectall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="删除" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+</LinearLayout>
